@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.app-title {
+    font-size: 24px;
+    text-align: center;
+}
+
+.address-book-wrapper {
+    width:80%;
+    margin-left: 10%;
+}
+.contact-list-wrapper {
+    width: 20%;
+    float:left;
+}
+
+.contact-list {
+    height:50px;
+}
+
+.contact-list > div {
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+    border: black 1px solid;
+    background: #DCDCDC;    
+}
+
+.contact-list-viewer-wrapper {
+    width: 79%;
+    
+    float:right;
+}
+
+
